@@ -8,7 +8,6 @@ class AuthorDetail extends Component {
     let books = author.books.map(book => (
       <BookRow book={book} key={book.title} author={author} />
     ));
-    console.log(books);
 
     return (
       <div className="author col-xs-10">
